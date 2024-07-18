@@ -1,0 +1,125 @@
+strict: true
+
+disabled_rules:
+  - vertical_whitespace_opening_braces
+  - comment_spacing
+  - todo
+  - override_in_extension
+  - no_extension_access_modifier
+
+opt_in_rules:
+  - modifier_order
+  - redundant_nil_coalescing
+  - redundant_type_annotation
+  - single_test_class
+  - yoda_condition
+  - vertical_whitespace_opening_braces
+  - vertical_whitespace_closing_braces
+  - weak_delegate
+  - toggle_bool
+  - sorted_imports
+  - shorthand_optional_binding
+  - self_binding
+  - prefer_zero_over_explicit_init
+  - override_in_extension
+  - no_extension_access_modifier
+  - multiline_parameters_brackets
+  - multiline_literal_brackets
+  - multiline_function_chains
+  - multiline_arguments_brackets
+  - multiline_arguments
+  - lower_acl_than_parent
+  - literal_expression_end_indentation
+  - joined_default_parameter
+  - discouraged_none_name
+  - empty_count
+
+analyzer_rules:
+  - capture_variable
+  - explicit_self
+  - typesafe_array_init
+  - unused_import
+  - unused_declaration
+
+excluded:
+  - .build
+  
+line_length:
+    warning: 125
+    error: 125
+    ignores_comments: true
+
+nesting:
+  type_level: 2
+
+function_parameter_count:
+  warning: 6
+  error: 8
+
+self_binding:
+  bind_identifier: self
+
+identifier_name:
+  allowed_symbols: "_"
+  min_length:
+    error: 4
+  excluded:
+    - hex
+    - g
+    - r
+    - Src
+    - alt
+    - dto
+    - src
+    - day
+    - dn
+    - Current
+    - app
+    - min
+    - max
+    - id
+    - url
+    - key
+    - x
+    - z
+    - y
+    - y1
+    - y2
+    - i
+    - j
+    - red
+    - a
+    - b
+    - sut
+    - top
+    - row
+    - lhs
+    - rhs
+    - end
+    - c1
+    - t
+    - rgb
+    - all
+    - hsl
+    - sum
+    - roi
+    - hue
+    - p
+    - lut
+    - up
+    - hip
+    - to
+    - geo
+    - me
+    - dev
+    - env
+    - log
+    - car
+    - png
+    - fps
+    - mat
+    - uid
+    - ad
+    - raw
+    - fbc
+    - fbp

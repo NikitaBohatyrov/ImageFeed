@@ -8,17 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		2FDB0B6C2C488754001BF4DE /* ImageFeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB0B6B2C488754001BF4DE /* ImageFeedApp.swift */; };
-		2FDB0B6E2C488754001BF4DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB0B6D2C488754001BF4DE /* ContentView.swift */; };
+		2FDB0B6E2C488754001BF4DE /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB0B6D2C488754001BF4DE /* FeedView.swift */; };
 		2FDB0B702C488755001BF4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB0B6F2C488755001BF4DE /* Assets.xcassets */; };
 		2FDB0B732C488755001BF4DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB0B722C488755001BF4DE /* Preview Assets.xcassets */; };
+		2FDB0B7D2C488815001BF4DE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB0B7C2C488815001BF4DE /* NetworkManager.swift */; };
+		2FDB0B802C4889DF001BF4DE /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB0B7F2C4889DF001BF4DE /* World.swift */; };
+		2FDB0B862C4893A2001BF4DE /* CuratedImagePackResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB0B852C4893A2001BF4DE /* CuratedImagePackResponseDTO.swift */; };
+		2FDB0B882C48A49B001BF4DE /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB0B872C48A49B001BF4DE /* PostView.swift */; };
+		2FDB0B8C2C48A5E9001BF4DE /* Image+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB0B8B2C48A5E9001BF4DE /* Image+Data.swift */; };
+		2FDB0B8E2C48A86F001BF4DE /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB0B8D2C48A86F001BF4DE /* PostViewModel.swift */; };
+		2FDB0B902C48B13E001BF4DE /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB0B8F2C48B13E001BF4DE /* FeedViewModel.swift */; };
+		2FDB0B922C4931F5001BF4DE /* PostDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB0B912C4931F5001BF4DE /* PostDetailsView.swift */; };
+		2FDB0B942C4932D1001BF4DE /* PostDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB0B932C4932D1001BF4DE /* PostDetailsViewModel.swift */; };
+		2FDB0B962C4939F2001BF4DE /* Color+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB0B952C4939F2001BF4DE /* Color+hex.swift */; };
+		2FDB0B9C2C4970D4001BF4DE /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB0B9B2C4970D4001BF4DE /* Cache.swift */; };
+		2FDB0B9E2C497171001BF4DE /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB0B9D2C497171001BF4DE /* CacheManager.swift */; };
+		2FDB0BA22C497BC2001BF4DE /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB0BA12C497BC2001BF4DE /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2FDB0B682C488754001BF4DE /* ImageFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDB0B6B2C488754001BF4DE /* ImageFeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeedApp.swift; sourceTree = "<group>"; };
-		2FDB0B6D2C488754001BF4DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FDB0B6D2C488754001BF4DE /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		2FDB0B6F2C488755001BF4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FDB0B722C488755001BF4DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FDB0B7C2C488815001BF4DE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2FDB0B7F2C4889DF001BF4DE /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		2FDB0B852C4893A2001BF4DE /* CuratedImagePackResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuratedImagePackResponseDTO.swift; sourceTree = "<group>"; };
+		2FDB0B872C48A49B001BF4DE /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		2FDB0B8B2C48A5E9001BF4DE /* Image+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Data.swift"; sourceTree = "<group>"; };
+		2FDB0B8D2C48A86F001BF4DE /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		2FDB0B8F2C48B13E001BF4DE /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		2FDB0B912C4931F5001BF4DE /* PostDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsView.swift; sourceTree = "<group>"; };
+		2FDB0B932C4932D1001BF4DE /* PostDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsViewModel.swift; sourceTree = "<group>"; };
+		2FDB0B952C4939F2001BF4DE /* Color+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+hex.swift"; sourceTree = "<group>"; };
+		2FDB0B9B2C4970D4001BF4DE /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		2FDB0B9D2C497171001BF4DE /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		2FDB0BA12C497BC2001BF4DE /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +77,11 @@
 		2FDB0B6A2C488754001BF4DE /* ImageFeed */ = {
 			isa = PBXGroup;
 			children = (
-				2FDB0B6B2C488754001BF4DE /* ImageFeedApp.swift */,
-				2FDB0B6D2C488754001BF4DE /* ContentView.swift */,
+				2FDB0BA12C497BC2001BF4DE /* .swiftlint.yml */,
+				2FDB0B7E2C4889B8001BF4DE /* System */,
+				2FDB0B7B2C48878B001BF4DE /* Data */,
+				2FDB0B7A2C48877F001BF4DE /* Model */,
+				2FDB0B792C488778001BF4DE /* View */,
 				2FDB0B6F2C488755001BF4DE /* Assets.xcassets */,
 				2FDB0B712C488755001BF4DE /* Preview Content */,
 			);
@@ -67,6 +96,88 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2FDB0B792C488778001BF4DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FDB0B8A2C48A5D0001BF4DE /* Extensions */,
+				2FDB0B6D2C488754001BF4DE /* FeedView.swift */,
+				2FDB0B872C48A49B001BF4DE /* PostView.swift */,
+				2FDB0B912C4931F5001BF4DE /* PostDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FDB0B7A2C48877F001BF4DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FDB0B9A2C49704C001BF4DE /* Managers */,
+				2FDB0B992C49703E001BF4DE /* ViewModels */,
+				2FDB0B9B2C4970D4001BF4DE /* Cache.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FDB0B7B2C48878B001BF4DE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2FDB0B842C489315001BF4DE /* ResponseDTOs */,
+				2FDB0B832C4892FF001BF4DE /* RequestDTOs */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2FDB0B7E2C4889B8001BF4DE /* System */ = {
+			isa = PBXGroup;
+			children = (
+				2FDB0B6B2C488754001BF4DE /* ImageFeedApp.swift */,
+				2FDB0B7F2C4889DF001BF4DE /* World.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		2FDB0B832C4892FF001BF4DE /* RequestDTOs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestDTOs;
+			sourceTree = "<group>";
+		};
+		2FDB0B842C489315001BF4DE /* ResponseDTOs */ = {
+			isa = PBXGroup;
+			children = (
+				2FDB0B852C4893A2001BF4DE /* CuratedImagePackResponseDTO.swift */,
+			);
+			path = ResponseDTOs;
+			sourceTree = "<group>";
+		};
+		2FDB0B8A2C48A5D0001BF4DE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2FDB0B8B2C48A5E9001BF4DE /* Image+Data.swift */,
+				2FDB0B952C4939F2001BF4DE /* Color+hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2FDB0B992C49703E001BF4DE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2FDB0B8D2C48A86F001BF4DE /* PostViewModel.swift */,
+				2FDB0B8F2C48B13E001BF4DE /* FeedViewModel.swift */,
+				2FDB0B932C4932D1001BF4DE /* PostDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2FDB0B9A2C49704C001BF4DE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2FDB0B7C2C488815001BF4DE /* NetworkManager.swift */,
+				2FDB0B9D2C497171001BF4DE /* CacheManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +188,7 @@
 				2FDB0B642C488753001BF4DE /* Sources */,
 				2FDB0B652C488753001BF4DE /* Frameworks */,
 				2FDB0B662C488753001BF4DE /* Resources */,
+				2FDB0BA32C497BDB001BF4DE /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -125,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FDB0BA22C497BC2001BF4DE /* .swiftlint.yml in Resources */,
 				2FDB0B732C488755001BF4DE /* Preview Assets.xcassets in Resources */,
 				2FDB0B702C488755001BF4DE /* Assets.xcassets in Resources */,
 			);
@@ -132,13 +245,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FDB0BA32C497BDB001BF4DE /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [[ \"$(uname -m)\" == arm64 ]]; then\n  export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FDB0B642C488753001BF4DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FDB0B6E2C488754001BF4DE /* ContentView.swift in Sources */,
+				2FDB0B942C4932D1001BF4DE /* PostDetailsViewModel.swift in Sources */,
+				2FDB0B8E2C48A86F001BF4DE /* PostViewModel.swift in Sources */,
+				2FDB0B7D2C488815001BF4DE /* NetworkManager.swift in Sources */,
+				2FDB0B6E2C488754001BF4DE /* FeedView.swift in Sources */,
+				2FDB0B802C4889DF001BF4DE /* World.swift in Sources */,
 				2FDB0B6C2C488754001BF4DE /* ImageFeedApp.swift in Sources */,
+				2FDB0B9E2C497171001BF4DE /* CacheManager.swift in Sources */,
+				2FDB0B9C2C4970D4001BF4DE /* Cache.swift in Sources */,
+				2FDB0B882C48A49B001BF4DE /* PostView.swift in Sources */,
+				2FDB0B8C2C48A5E9001BF4DE /* Image+Data.swift in Sources */,
+				2FDB0B922C4931F5001BF4DE /* PostDetailsView.swift in Sources */,
+				2FDB0B962C4939F2001BF4DE /* Color+hex.swift in Sources */,
+				2FDB0B862C4893A2001BF4DE /* CuratedImagePackResponseDTO.swift in Sources */,
+				2FDB0B902C48B13E001BF4DE /* FeedViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +328,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -197,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -245,7 +391,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -254,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -280,6 +426,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +456,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
